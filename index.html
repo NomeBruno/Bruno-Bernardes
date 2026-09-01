@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bruno Bernardes | Desenvolvedor Web & Mobile</title>
+    <!-- Tabler Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@latest/dist/tabler-icons.min.css">
+    <link rel="stylesheet" href="css/estilo.css">
+</head>
+
+<body>
+    <div class="ambient-glow glow-1"></div>
+    <div class="ambient-glow glow-2"></div>
+
+    <div class="app-wrapper">
+        <!-- Navegação Lateral / Filtro de Categorias -->
+        <header class="sidebar-menu filter-bar">
+            <button class="icon filter-btn active" data-filter="all" title="Todos"><i class="ti ti-layout-grid"></i></button>
+            <button class="icon filter-btn" data-filter="sobre" title="Sobre Mim"><i class="ti ti-user"></i></button>
+            <button class="icon filter-btn" data-filter="projetos" title="Projetos"><i class="ti ti-code"></i></button>
+            <button class="icon filter-btn" data-filter="skills" title="Tech Stack"><i class="ti ti-cpu"></i></button>
+            <button class="icon filter-btn" data-filter="formacao" title="Formação"><i class="ti ti-certificate"></i></button>
+            <button class="icon filter-btn" data-filter="contato" title="Contato"><i class="ti ti-mail"></i></button>
+        </header>
+
+        <main class="main-content">
+            <div class="topo">
+                <span class="badge">Disponível para Projetos</span>
+                <h1>Bruno Bernardes | Desenvolvedor Web & Mobile</h1>
+
+                <button id="theme-toggle" class="theme-btn" aria-label="Alternar Tema">
+                    <span class="theme-icon"><i class="ti ti-moon"></i></span>
+                </button>
+            </div>
+
+            <section class="cards-grid">
+                <article id="sobre" class="conteiner" data-category="sobre">
+                    <h2><i class="ti ti-id"></i> Sobre Mim</h2>
+                    <p>Desenvolvedor focado em criar soluções web e mobile modernas. Formado em Técnico em Informática
+                        para Internet pela QI, com experiência em tecnologias Full-Stack e desenvolvimento
+                        multiplataforma.</p>
+                </article>
+
+                <article id="projetos" class="conteiner-um" data-category="projetos">
+                    <h2><i class="ti ti-rocket"></i> Projetos em Destaque</h2>
+                    <p>Conheça alguns dos projetos acadêmicos e pessoais desenvolvidos:</p>
+                    <div class="project-tags">
+                        <span class="tech-tag">Opticore</span>
+                        <span class="tech-tag">Tap Dash</span>
+                        <span class="tech-tag">Velpam</span>
+                    </div>
+                    <div class="social-links">
+                        <a href="https://github.com/NomeBruno" target="_blank" rel="noopener noreferrer"
+                            class="btn-link">
+                            <i class="ti ti-brand-github"></i> Ver Repositórios no GitHub
+                        </a>
+                    </div>
+                </article>
+
+                <article id="skills" class="conteiner" data-category="skills">
+                    <h2><i class="ti ti-cpu"></i> Tech Stack</h2>
+                    <p>Tecnologias e ferramentas utilizadas no desenvolvimento de aplicações:</p>
+                    <div class="tech-grid">
+                        <div class="tech-item"><i class="ti ti-brand-html5"></i> HTML5 & CSS3</div>
+                        <div class="tech-item"><i class="ti ti-brand-javascript"></i> JavaScript</div>
+                        <div class="tech-item"><i class="ti ti-brand-laravel"></i> Laravel</div>
+                        <div class="tech-item"><i class="ti ti-brand-flutter"></i> Flutter & Dart</div>
+                        <div class="tech-item"><i class="ti ti-database"></i> Banco de Dados</div>
+                    </div>
+                </article>
+
+                <article id="formacao" class="conteiner-um" data-category="formacao">
+                    <h2><i class="ti ti-certificate"></i> Formação & Cursos</h2>
+                    <p><strong>Técnico em Informática para Internet</strong><br>QI Faculdade e Escola Técnica</p>
+                    <p><strong>Auxiliar Administrativo</strong> — SENAC</p>
+                    <p><strong>Auxiliar de Manutenção Elétrica e Eletrônica</strong> — Escola José César de Mesquita</p>
+                </article>
+
+                <article id="contato" class="conteiner" data-category="contato">
+                    <h2><i class="ti ti-send"></i> Vamos Conversar?</h2>
+                    <p>Entre em contato ou acesse minhas redes profissionais:</p>
+                    <div class="social-links">
+                        <a href="https://github.com/NomeBruno" target="_blank" rel="noopener noreferrer"
+                            class="btn-link">
+                            <i class="ti ti-brand-github"></i> GitHub
+                        </a>
+                        <a href="https://www.linkedin.com/in/bruno-bernardes-868593198/" target="_blank"
+                            rel="noopener noreferrer" class="btn-link">
+                            <i class="ti ti-brand-linkedin"></i> LinkedIn
+                        </a>
+                        <a href="mailto:brunobcruzjovem@gmail.com" class="btn-link">
+                            <i class="ti ti-mail"></i> Enviar E-mail
+                        </a>
+                    </div>
+                </article>
+            </section>
+        </main>
+    </div>
+
+    <footer class="footer-bar">
+        <p>&copy; 2026 - Bruno Bernardes. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
